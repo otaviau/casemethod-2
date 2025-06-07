@@ -1,4 +1,4 @@
-class TransaksiPengisian {
+public class TransaksiPengisian {
     Kendaraan kendaraan;
     BBM bbm;
     double liter;
