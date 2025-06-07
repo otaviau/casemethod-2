@@ -19,4 +19,15 @@ public class TransaksiDLL {
             tail = newNode;
         }
     }
+    public void print(){
+        if (isEmpty()) {
+            System.out.println("Linked list masih kosong.");
+            return;
+        }
+        Node current = head;
+        while (current != null) {
+            current.data.tampil();
+            current = current.next;
+        }
+    }
 }
