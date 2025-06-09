@@ -12,7 +12,6 @@ public class TransaksiPengisian {
     }
 
     public void tampilkanTransaksi() {
-        System.out.println("Kendaraan: " + kendaraan.platNomor + ", BBM: " +
-                bbm.namaBBM + ", Liter: " + liter + ", Total: Rp" + totalBayar);
+        System.out.println("Kendaraan: " + kendaraan.platNomor + ", BBM: " + bbm.namaBBM + ", Liter: " + liter + ", Total: Rp" + totalBayar);
     }
 }
