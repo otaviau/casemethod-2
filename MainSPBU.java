@@ -22,7 +22,7 @@ public class MainSPBU {
             System.out.println("0. Keluar");
             System.out.print("Pilih: ");
             pilihan = sc.nextInt();
-            sc.nextLine(); // Buang newline
+            sc.nextLine(); 
 
             switch (pilihan) {
                 case 1:
